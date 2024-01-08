@@ -22,6 +22,15 @@ internal partial class Program
         Manager manager = new Manager("Ragu", 65000);
         manager.PrintDetails();
 
+        CheckingAccount checkingAccount = new CheckingAccount("AOD1025", 0);
+        SavingsAccount savingsAccount = new SavingsAccount("AOS1023", 500);
+
+        savingsAccount.Deposit(10000);
+        savingsAccount.Withdraw(100);
+
+        checkingAccount.Deposit(100);
+        checkingAccount.Withdraw(10000);
+
         Console.ReadKey();
     }
     /// <summary>
