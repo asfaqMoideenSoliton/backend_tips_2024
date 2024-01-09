@@ -7,7 +7,7 @@
     {
         private double _accBalance;
         /// <summary>
-        /// Method t withdraw amount
+        /// fhdskjl
         /// </summary>
         /// <param name="withdrawAmount">lsdhfjs</param>
         public void Withdraw(double withdrawAmount)
@@ -17,9 +17,9 @@
             Console.WriteLine("Account Balance after withdraw" + _accBalance);
         }
         /// <summary>
-        /// MEthod to deposit amount
+        /// fdkjvhds
         /// </summary>
-        /// <param name="depositAmount">1000</param>
+        /// <param name="depositAmount">sdjfsdjn</param>
         public void Deposit(double depositAmount)
         {
             _accBalance += depositAmount;
