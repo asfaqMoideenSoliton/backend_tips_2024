@@ -1,6 +1,6 @@
 ﻿namespace Assignments
 {/// <summary>
-/// /hnjb
+/// Manipulates and stores the objects in the list declared in this class
 /// </summary>
     internal class ExpenseTracker
     {

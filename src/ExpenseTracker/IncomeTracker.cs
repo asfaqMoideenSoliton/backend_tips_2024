@@ -1,13 +1,13 @@
 ﻿namespace Assignments
 {
     /// <summary>
-    /// fg
+    /// Manipulates and stores the objects as list declared in this class
     /// </summary>
     public class IncomeTracker
     {
         private List<FinanceManager> _incomes = new List<FinanceManager>();
         /// <summary>
-        /// uhfdjis
+        /// A method wthout any return, initialises elenst in the income list
         /// </summary>
         public void AddIncome()
         {
@@ -50,7 +50,7 @@
             }
         }
         /// <summary>
-        /// Method inside this calss to show incomes
+        /// Method inside this calss to prints incomes
         /// </summary>
         public void ViewIncome()
         {
